@@ -84,12 +84,21 @@ article{
 }
 
 /* ↑ section btn設定/////////////////////////////////////*/
-.section_1{
+.section_1,.section_2,.section_3,.section_4,.section_5,.section_6,.section_7{
     height: 230px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
+}
+.section_2,.section_4,.section_6{
+    background-color: #F1F1F1;;
+}
+.section_2,.section_3{
+    height: 189px;
+}
+.section_4{
+    height: 369px;
 }
 
 
