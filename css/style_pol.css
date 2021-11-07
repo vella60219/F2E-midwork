@@ -1,5 +1,6 @@
 article{
     display: flex;
+    /* flex-direction: column; */
     justify-content: center;
 }
 
@@ -13,17 +14,18 @@ article{
     height: 46px;
     left: 148px;
     top: 168px;
+    margin-top: 16px;
     background: #F1F1F1;
     border-radius: 4px;
-    border: solid 1px black;
+    /* border: solid 1px rgb(194, 111, 111); */
 }
 .breadcrumb, .print_btn{                /* 麵包屑 友善列印 */
     display: flex;
     flex-wrap: nowrap;
     border: solid 1px black;
 }
-.breadcrumb{
-    padding-right: 5px;
+.breadcrumb a{
+    left:5px;
 }
 .print_btn{
     padding-left: 5px;
@@ -31,4 +33,8 @@ article{
 .icon_homepage, .icon_print{                /* 首頁 列印icon */
     width: 16px;
     height: 16px;
+}
+
+.title_content{
+    text-decoration: underline;
 }
