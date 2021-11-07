@@ -27,25 +27,29 @@ a{            /*把a標籤的底線都拿掉，加上自動換行，顏色設定
   text-decoration: none;
 }
 
-.navbtn_li{
+.navbtn_li{                /*給list型導覽列的li元素，使導覽列橫向排列*/
   display: flex;
 }
 
-.libtn{       /*list型導覽列按鈕初始*/
+.libtn{                     /*list型導覽列按鈕初始*/
   list-style: none;
   text-align: center;
+}
+
+.flexTextCenter{            /*文字垂直中央置中（給盒子），為了子導覽列所以設定向下排序*/
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
-.flexTextCenter{
+.flexTextCenterN{            /*（給nav的）文字垂直中央置中（給盒子），為了子導覽列所以設定向下排序*/
   display: flex;
-  justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
-/* ↓ 字型設定區/////////////////////////////////////*/
+/* ↓ 字型設定區/////////////////////////////////////////////////////////////*/
 
 .textH{
   padding: 0px;
@@ -62,6 +66,16 @@ a{            /*把a標籤的底線都拿掉，加上自動換行，顏色設定
   font-size: 2.4rem;
   font-family: 'Arial', 'Arial Narrow', sans-serif;
   letter-spacing: 1px;
+  height: inherit;
+  line-height: 111px;
+}
+
+.textNp{
+  padding: 0 10px;
+  margin: 0px;
+  color: #000000;
+  font-size: 1.4rem;
+  font-family: 'Arial', 'Arial Narrow', sans-serif;
 }
 
 .textA{
@@ -88,7 +102,7 @@ a{            /*把a標籤的底線都拿掉，加上自動換行，顏色設定
   font-family: 'Arial Black', 'Arial Narrow Bold', sans-serif;
 }
 
-/* ↑ 字型設定區/////////////////////////////////////*/
+/* ↑ 字型設定區/////////////////////////////////////////////////////////////////*/
 
 /* ↓ Header 區/////////////////////////////////////*/
 header{
@@ -188,11 +202,61 @@ nav{
   height: 85px;
 }
 
+.nav_list{
+  height: inherit;
+}
+
 .icon_search{
   height: 29px;
 }
 
 .nav_btn{
-  padding: 15px;
+  height: inherit;
+  padding: 0 15px;
+  position: relative;
 }
+
+.nav_btnS{
+  height: inherit;
+  padding: 0 15px;
+  position: relative;
+}
+
+.nav_btn_a_box{
+  height: inherit;
+}
+
+.nav_list_sub{
+  width: 130px;
+  flex-direction: column;
+  background-color: #ffffff;
+  position: relative;
+  display: none;
+}
+
+.nav_btn_sub{
+  height: 51px;
+}
+
+.nav_btn:hover{
+  background-color: #d1d1d1;
+  padding: 0;
+}
+
+.nav_btnS:hover{
+  background-color: #d1d1d1;
+}
+
+.nav_btn:hover .nav_list_sub{
+  display: block;
+}
+
+.nav_btn_sub:hover{
+  background-color: #d1d1d1;
+}
+
+.nav_list_sub > .nav_btn_sub:hover {
+  background-color: #d1d1d1;
+}
+
 /* ↑ nav 區/////////////////////////////////////*/
