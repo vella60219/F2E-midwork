@@ -1,0 +1,18 @@
+/* 各頁頁首標題 */
+
+.tittle_box{
+    height: 80px;
+    margin-top: 20px;
+}
+
+.tittle_box p{
+    padding: 0 15px;
+}
+
+.tittle_line{
+    height: 1px;
+    border: #000000 1.5px solid;
+    background-color: #000000;
+    border-radius: 100px;
+    margin-top: 10px;
+}

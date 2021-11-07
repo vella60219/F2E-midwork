@@ -1,0 +1,134 @@
+article{
+    display: flex;
+    justify-content: center;
+}
+
+.article_box{
+    width: 984px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxA{
+    display: flex;
+    justify-content: space-between;
+    width: inherit;
+}
+
+
+
+.frame{
+    height: 206px;
+    width: inherit;
+    border: #000000 7px solid;
+    border-radius: 52px;
+    margin: 15px;
+}
+
+.textFN{
+    padding: 0px;
+    margin: 0px;
+    color: #000000;
+    font-size: 12.2rem;
+    font-family: 'Arial', 'Arial Narrow', sans-serif;
+    align-items: center;
+    text-align: center;
+}
+
+.frame_box{
+    height: 80%;
+    width: 80%;
+    margin: 20px;
+}
+
+.frame_tittle{
+    height: 20%;
+}
+
+.frame_content{
+    height: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.frame_content_N{
+    width: 60%;
+}
+
+.frame_quantifier{
+    width: 20%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.frame_quantifier{
+    padding-bottom: 15px;
+}
+
+.frame_line{
+    height: inherit;
+    border: #000000 3px solid;
+}
+
+.box_big .frame{
+    justify-content: space-around;
+}
+
+.boxA_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.box_big{
+    width: 401px;
+}
+
+.box_small{
+    width: 223px;
+}
+
+.arrow_box{
+    width: inherit;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 20px;
+}
+
+.arrow_box div{
+    background-color: #B7EB21;
+    width: 55px;
+    height: 34px;
+    border-radius: 6px;
+}
+
+.icon_arrow{
+    width: 37px;
+    height: 18px;
+}
+
+.arrow_box div:hover{
+    background-color: #E36D94;
+}
+
+
+
+.boxB{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: inherit;
+    padding: 40px;
+}
+
+.boxB p{
+    padding-bottom: 40px;
+}
+
+.geo_pic{
+    height: 566px;
+    margin-bottom: 10px;
+}
