@@ -40,13 +40,6 @@ a{            /*把a標籤的底線都拿掉，加上自動換行，顏色設定
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-}
-
-.flexTextCenterN{            /*（給nav的）文字垂直中央置中（給盒子），為了子導覽列所以設定向下排序*/
-  display: flex;
-  align-items: center;
-  flex-direction: column;
 }
 
 /* ↓ 字型設定區/////////////////////////////////////////////////////////////*/
@@ -103,6 +96,19 @@ a{            /*把a標籤的底線都拿掉，加上自動換行，顏色設定
   font-size: 1.6rem;
   font-family: 'Arial Black', 'Arial Narrow Bold', sans-serif;
 }
+
+.textF{
+  padding: 0px;
+  margin: 0px;
+  color: #000000;
+  font-size: 1.3rem;
+  font-family: 'Roboto','Arial', 'Arial Narrow', sans-serif;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+
+color: #FFFFFF;
+}
+
 
 /* ↑ 字型設定區/////////////////////////////////////////////////////////////////*/
 
@@ -258,3 +264,62 @@ nav{
 }
 
 /* ↑ nav 區/////////////////////////////////////*/
+
+/* ↓ banner 區/////////////////////////////////////*/
+
+.banner{
+  width: 1280px;
+}
+
+.banner img{
+  width: inherit;
+}
+
+/* ↑ banner 區/////////////////////////////////////*/
+
+/* ↓ footer 區/////////////////////////////////////*/
+
+footer{
+  background-color: #60B683;
+  width: inherit;
+  height: 217px;
+}
+
+.footer_box{
+  height: inherit;
+  width: 885px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer_logo{
+  height: 115px;
+}
+
+.footerR{
+  height: inherit;
+  padding: 20px 0;
+}
+
+.footerR_top{
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer_btn_line{
+  height: inherit;
+  width: 1px;
+  border-right: #ffffff 1px solid;
+}
+
+.footerR_botton{
+  padding-top: 10px;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+/* ↑ footer 區/////////////////////////////////////*/
