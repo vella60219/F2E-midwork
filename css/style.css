@@ -9,27 +9,71 @@ html{
     margin: 0;
 }
 
+body{
+  font-family: 'ArialMT Regular',Arial, Helvetica, sans-serif;
+  background-color: #f7f7f7;
+}
+
+.container{
+  width: auto;
+  min-width: 1280px;
+  height: 940px;
+
+}
+
 a{            /*把a標籤的底線都拿掉，加上自動換行，顏色設定為黑色*/
   display: block;
   color: #000000;
   text-decoration: none;
 }
 
-body{
-  font-family: 'ArialMT Regular',Arial, Helvetica, sans-serif;
+.navbtn_li{                /*給list型導覽列的li元素，使導覽列橫向排列*/
+  display: flex;
 }
 
-.container{
-  width: auto;
-  min-width: 1260px;
-  height: 940px;
-  background-color: #ffffff;
+.libtn{                     /*list型導覽列按鈕初始*/
+  list-style: none;
+  text-align: center;
 }
 
+.flexTextCenter{            /*文字垂直中央置中（給盒子），為了子導覽列所以設定向下排序*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-/* ↓ 字型設定區/////////////////////////////////////*/
+/* ↓ 字型設定區/////////////////////////////////////////////////////////////*/
 
-.textA{
+.textH{                 /* header 字型*/
+  padding: 0px;
+  margin: 0px;
+  color: #ffffff;
+  font-size: 1.4rem;
+  font-family: 'Arial', 'Arial Narrow', sans-serif;
+}
+
+.textN{                 /* nav 字型*/
+  padding: 0px;
+  margin: 0px;
+  color: #000000;
+  font-size: 2.4rem;
+  font-family: 'Arial', 'Arial Narrow', sans-serif;
+  letter-spacing: 1px;
+  height: inherit;
+  line-height: 111px;
+}
+
+.textNp{                 /* sub nav 字型*/
+  padding: 10px;
+  margin: 0px;
+  color: #000000;
+  font-size: 1.4rem;
+  font-family: 'Arial', 'Arial Narrow', sans-serif;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+.textA{                 /* 內文 ABC 級字型都還沒用過可以改*/
     padding: 0px;
     margin: 0px;
     color: #000000;
@@ -53,4 +97,229 @@ body{
   font-family: 'Arial Black', 'Arial Narrow Bold', sans-serif;
 }
 
-/* ↑ 字型設定區/////////////////////////////////////*/
+.textF{
+  padding: 0px;
+  margin: 0px;
+  color: #000000;
+  font-size: 1.3rem;
+  font-family: 'Roboto','Arial', 'Arial Narrow', sans-serif;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+
+color: #FFFFFF;
+}
+
+
+/* ↑ 字型設定區/////////////////////////////////////////////////////////////////*/
+
+/* ↓ Header 區/////////////////////////////////////*/
+header{
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  background-color: #5B7A97;
+}
+
+.header_box{
+  height: inherit;
+  width: 984px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.headerL{
+  height: inherit;
+}
+
+.headerL_list{
+  height: inherit;
+}
+
+.header_btn{
+  width: 84px;
+}
+
+
+.headerR{
+  height: inherit;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header_lan{
+  display: flex;
+  justify-content: space-around;
+}
+
+.headerR a{
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header_lan img{
+  height: 25px;
+  width: auto;
+}
+
+.header_lan .textH{
+  padding: 10px;
+}
+
+.header_textSize{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+.header_textSize .textH{
+  padding: 5px;
+}
+
+.header_textSize .smallText{
+  font-size: 0.25em;
+}
+
+.header_textSize .bigText{
+  font-size: 1.75em;
+}
+/* ↑ Header 區/////////////////////////////////////*/
+
+/* ↓ nav 區/////////////////////////////////////*/
+nav{
+  height: 111px;
+  display: flex;
+  justify-content: center;
+  background-color: inherit;
+  box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.25);
+}
+
+.nav_box{
+  height: inherit;
+  width: 984px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_logo{
+  height: 85px;
+}
+
+.nav_list{
+  height: inherit;
+}
+
+.icon_search{
+  height: 29px;
+}
+
+.nav_btn{
+  height: inherit;
+  padding: 0 15px;
+  position: relative;
+}
+
+.nav_btnS{
+  height: inherit;
+  padding: 0 15px;
+  position: relative;
+}
+
+.nav_btn_a_box{
+  height: inherit;
+}
+
+.nav_list_sub{
+  width: 130px;
+  flex-direction: column;
+  background-color: #ffffff;
+  position: relative;
+  display: none;
+}
+
+.nav_btn:hover{
+  background-color: #d1d1d1;
+  padding: 0;
+}
+
+.nav_btnS:hover{
+  background-color: #d1d1d1;
+}
+
+.nav_btn:hover .nav_list_sub{
+  display: block;
+}
+
+.nav_btn_sub:hover{
+  background-color: #d1d1d1;
+}
+
+.nav_list_sub > .nav_btn_sub:hover {
+  background-color: #d1d1d1;
+}
+
+/* ↑ nav 區/////////////////////////////////////*/
+
+/* ↓ banner 區/////////////////////////////////////*/
+
+.banner{
+  width: 1280px;
+}
+
+.banner img{
+  width: inherit;
+}
+
+/* ↑ banner 區/////////////////////////////////////*/
+
+/* ↓ footer 區/////////////////////////////////////*/
+
+footer{
+  background-color: #60B683;
+  width: inherit;
+  height: 217px;
+}
+
+.footer_box{
+  height: inherit;
+  width: 885px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer_logo{
+  height: 115px;
+}
+
+.footerR{
+  height: inherit;
+  padding: 20px 0;
+}
+
+.footerR_top{
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer_btn_line{
+  height: inherit;
+  width: 1px;
+  border-right: #ffffff 1px solid;
+}
+
+.footerR_botton{
+  padding-top: 10px;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+/* ↑ footer 區/////////////////////////////////////*/
