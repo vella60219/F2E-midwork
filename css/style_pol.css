@@ -40,10 +40,16 @@ article{
 /* ↑  麵包屑跟友善列印 區/////////////////////////////////////*/
 
 /* ↓   標題(title) 區/////////////////////////////////////*/
-.title_content{
-    text-decoration: underline;
-    margin-top: 16px;
-    text-align: center;
+.tittle_box {
+    height: 80px;
+    margin-top: 20px;
+}
+.tittle_line {
+    height: 1px;
+    border: #000000 1.5px solid;
+    background-color: #000000;
+    border-radius: 100px;
+    margin-top: 10px;
 }
 
 /* ↑  標題(title) 區/////////////////////////////////////*/
