@@ -61,6 +61,7 @@ article{
 .btn_block{
     border: solid 1px black;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     width: 982px;
     left: 150px;
@@ -71,6 +72,11 @@ article{
 .section_1{
     height: 230px;
     border: solid 1px black;
+}
+.section1_1,.section1_2{
+    border: solid 1px black;
+    display: flex;
+    flex-wrap: nowrap;
 }
 .btn{
     border: solid 1px black;
