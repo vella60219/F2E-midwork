@@ -59,29 +59,39 @@ article{
     align-items: center;
 }
 .btn_block{
-    border: solid 1px black;
+    /* border: solid 1px black; */
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     width: 982px;
-    left: 150px;
-    
+    margin-top: 20px;
+}
+.btn_section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.btn{
+    margin: 12px 20px 12px 0px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    border: solid 2px black;
+    border-radius: 25px;
+    background-color: rgb(255, 196, 0);
 }
 
 /* ↑ section btn設定/////////////////////////////////////*/
 .section_1{
     height: 230px;
-    border: solid 1px black;
-}
-.section1_1,.section1_2{
-    border: solid 1px black;
     display: flex;
+    flex-direction: column;
     flex-wrap: nowrap;
+    justify-content: center;
 }
-.btn{
-    border: solid 1px black;
-    margin: 12px 20px 12px 0px;
-}
+
 
 /* ↑ 內文 區/////////////////////////////////////*/
 
