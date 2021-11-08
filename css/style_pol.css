@@ -84,7 +84,7 @@ article{
     justify-content: center;
 }
 .btn{
-    margin: 12px 20px 12px 0px;
+    margin: 12px 15px 12px 15px;
     display: flex;
     justify-content: center;
     padding: 10px 20px;
@@ -92,6 +92,7 @@ article{
     border-radius: 25px;
     background-color: rgb(255, 196, 0);
 }
+
 
 /* ↑ section btn設定/////////////////////////////////////*/
 .section_1,.section_2,.section_3,.section_4,.section_5,.section_6,.section_7,.section_8{
@@ -144,8 +145,8 @@ article{
     background-color: rgb(184, 184, 184);
 }
 .section_6 img{
-    width: 180px;
-    height: 180px;
+    width: 150px;
+    height: 150px;
 }
 .section_6 .textC{
     display: flex;
@@ -162,15 +163,20 @@ article{
     justify-content: center;
     /* border: solid 1px black; */
 }
+.section_7 .btn_section{
+    padding-top: 15px;
+}
 .section_8 .btn_section{
     padding: 20px;
 }
 .section_8 .btn{
     margin: 0;
-    padding: 10px 20px;
+    padding: 15px 40px;
+    letter-spacing: 1px;
     background-color: #ffffff;
     border: solid 0.1px black;
     border-radius: 8px;
+    transition: 0.5s;
 }
 .section_8 .btn:hover{
     background-color: rgb(184, 184, 184);
