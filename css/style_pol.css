@@ -3,7 +3,7 @@ article{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: solid 1px rgb(255, 0, 0);
+    /* border: solid 1px rgb(255, 0, 0); */
 }
 
 /* ↓ 麵包屑跟友善列印 區/////////////////////////////////////*/
@@ -113,6 +113,9 @@ article{
 .section_6{
     height: 450px;
 }
+.section_7{
+    height: 500px;
+}
 .download_android,.download_ios,.application_qrcode{
     display: flex;
     flex-direction: column;
@@ -121,10 +124,11 @@ article{
     margin: 0 35px;
     margin-top: 20px;
     margin-bottom: 44px;
+    padding: 10px;
     /* border: solid 1px black; */
     transition: 0.5s;
 
-    border-radius: 8px;
+    border-radius: 12px;
     /* border: solid 2px black; */
 }
 .download_android:hover{
@@ -155,10 +159,9 @@ article{
     justify-content: center;
     /* border: solid 1px black; */
 }
-.section_6 .btn_section{
-    /* border: solid 1px black; */
+.section_7 .btn_section{
+    padding: 20px;
 }
-
 
 /* ↑ 內文 區/////////////////////////////////////*/
 
