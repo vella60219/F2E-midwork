@@ -1,0 +1,1 @@
+document.getElementsByClassName(".back_btn").onclick = function () {window.history.forward();}
