@@ -11,7 +11,7 @@ html{
 
 body{
   font-family: 'ArialMT Regular',Arial, Helvetica, sans-serif;
-  background-color: #f7f7f7;
+  background-color: #ffffff;
 }
 
 .container{
@@ -23,7 +23,7 @@ body{
 
 a{            /*把a標籤的底線都拿掉，加上自動換行，顏色設定為黑色*/
   display: block;
-  color: #000000;
+  color: #030303;
   text-decoration: none;
 }
 
@@ -47,7 +47,7 @@ a{            /*把a標籤的底線都拿掉，加上自動換行，顏色設定
 .textH{                 /* header 字型*/
   padding: 0px;
   margin: 0px;
-  color: #ffffff;
+  color: #000000;
   font-size: 1.4rem;
   font-family: 'Arial', 'Arial Narrow', sans-serif;
 }
@@ -55,7 +55,7 @@ a{            /*把a標籤的底線都拿掉，加上自動換行，顏色設定
 .textN{                 /* nav 字型*/
   padding: 0px;
   margin: 0px;
-  color: #000000;
+  color: #222222;
   font-size: 2.4rem;
   font-family: 'Arial', 'Arial Narrow', sans-serif;
   letter-spacing: 1px;
@@ -66,7 +66,7 @@ a{            /*把a標籤的底線都拿掉，加上自動換行，顏色設定
 .textNp{                 /* sub nav 字型*/
   padding: 10px;
   margin: 0px;
-  color: #000000;
+  color: #222222;
   font-size: 1.4rem;
   font-family: 'Arial', 'Arial Narrow', sans-serif;
   line-height: 1.5;
@@ -76,37 +76,35 @@ a{            /*把a標籤的底線都拿掉，加上自動換行，顏色設定
 .textA{                 /* 內文 ABC 級字型都還沒用過可以改*/
     padding: 0px;
     margin: 0px;
-    color: #000000;
+    color: #222222;
     font-size: 3.6rem;
-    font-family: 'Arial Black', 'Arial Narrow Bold', sans-serif;
+    font-family: 'Arial', 'Arial Narrow', sans-serif;
 }
 
 .textB{
   padding: 0px;
   margin: 0px;
-  color: #000000;
+  color: #222222;
   font-size: 2.2rem;
-  font-family: 'Arial Black', 'Arial Narrow Bold', sans-serif;
+  font-family: 'Arial', 'Arial Narrow', sans-serif;
 }
 
 .textC{
   padding: 0px;
   margin: 0px;
-  color: #000000;
+  color: #222222;
   font-size: 1.6rem;
-  font-family: 'Arial Black', 'Arial Narrow Bold', sans-serif;
+  font-family: 'Arial', 'Arial Narrow', sans-serif;
 }
 
 .textF{
   padding: 0px;
   margin: 0px;
-  color: #000000;
+  color: #FFFFFF;
   font-size: 1.3rem;
   font-family: 'Roboto','Arial', 'Arial Narrow', sans-serif;
   line-height: 15px;
   letter-spacing: 0.1em;
-
-color: #FFFFFF;
 }
 
 
@@ -117,7 +115,7 @@ header{
   height: 40px;
   display: flex;
   justify-content: center;
-  background-color: #5B7A97;
+  background-color: #1CADAD;
 }
 
 .header_box{
@@ -245,22 +243,27 @@ nav{
 .nav_btn:hover{
   background-color: #d1d1d1;
   padding: 0;
+  /* transition: .5s; */
 }
 
 .nav_btnS:hover{
   background-color: #d1d1d1;
+  /* transition: .5s; */
 }
 
 .nav_btn:hover .nav_list_sub{
   display: block;
+  transition: .3s;
 }
 
 .nav_btn_sub:hover{
   background-color: #d1d1d1;
+  transition: .3s;
 }
 
 .nav_list_sub > .nav_btn_sub:hover {
   background-color: #d1d1d1;
+  transition: .3s;
 }
 
 /* ↑ nav 區/////////////////////////////////////*/
@@ -281,7 +284,7 @@ nav{
 /* ↓ footer 區/////////////////////////////////////*/
 
 footer{
-  background-color: #60B683;
+  background-color: #1CADAD;
   width: inherit;
   height: 217px;
 }

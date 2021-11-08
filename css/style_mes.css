@@ -21,7 +21,7 @@ article{
 .frame{
     height: 206px;
     width: inherit;
-    border: #000000 7px solid;
+    border: #222222 7px solid;
     border-radius: 52px;
     margin: 15px;
 }
@@ -29,7 +29,7 @@ article{
 .textFN{
     padding: 0px;
     margin: 0px;
-    color: #000000;
+    color: #222222;
     font-size: 12.2rem;
     font-family: 'Arial', 'Arial Narrow', sans-serif;
     align-items: center;
@@ -69,7 +69,8 @@ article{
 
 .frame_line{
     height: inherit;
-    border: #000000 3px solid;
+    border: #222222 3px solid;
+    background-color: #222222;
 }
 
 .box_big .frame{
@@ -99,7 +100,7 @@ article{
 }
 
 .arrow_box div{
-    background-color: #B7EB21;
+    background-color: #82DBE0;
     width: 55px;
     height: 34px;
     border-radius: 6px;
@@ -111,7 +112,8 @@ article{
 }
 
 .arrow_box div:hover{
-    background-color: #E36D94;
+    background-color: #85ABF4;
+    transition: .3s;
 }
 
 
