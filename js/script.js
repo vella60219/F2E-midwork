@@ -1,1 +1,1 @@
-document.getElementsByClassName(".back_btn").onclick = function () {window.history.forward();}
+//先開好，暫時沒有東西 
