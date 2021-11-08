@@ -40,11 +40,15 @@ article{
 /* ↑  麵包屑跟友善列印 區/////////////////////////////////////*/
 
 /* ↓   標題(title) 區/////////////////////////////////////*/
-.tittle_box {
+.title_box {
     height: 80px;
     margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-.tittle_line {
+.title_line {
     height: 1px;
     border: #000000 1.5px solid;
     background-color: #000000;
@@ -104,7 +108,55 @@ article{
     height: 189px;
 }
 .section_4{
-    height: 369px;
+    height: 440px;
+}
+.section_6{
+    height: 450px;
+}
+.download_android,.download_ios,.application_qrcode{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 35px;
+    margin-top: 20px;
+    margin-bottom: 44px;
+    /* border: solid 1px black; */
+    transition: 0.5s;
+
+    border-radius: 8px;
+    /* border: solid 2px black; */
+}
+.download_android:hover{
+    background-color: rgb(184, 184, 184);
+}
+.download_ios:hover{
+    background-color: rgb(184, 184, 184);
+}
+.application_qrcode:hover{
+    background-color: rgb(184, 184, 184);
+}
+.section_6 img{
+    width: 180px;
+    height: 180px;
+}
+.section_6 .textC{
+    display: flex;
+    justify-content: center;
+    width: 180px;
+    margin: 0px;
+    margin-top: 10px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+.section_6 .btn_block{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* border: solid 1px black; */
+}
+.section_6 .btn_section{
+    /* border: solid 1px black; */
 }
 
 
