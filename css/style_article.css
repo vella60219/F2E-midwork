@@ -57,34 +57,12 @@
 
 
 
-.section{
-    margin-top: 16px;
-    padding: 16px;
-    width: 100%;
-    text-align: center;
-    align-items: center;
-}
-.btn_block{
-    /* border: solid 1px black; */
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 982px;
-    margin-top: 20px;
-}
-.btn_section{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-}
 
-.section_8 .btn_section{
-    padding: 20px;
-}
-.section_8 .btn{
-    margin: 0;
+
+
+
+.back_btn{
+    margin: 40px;
     padding: 15px 40px;
     letter-spacing: 1px;
     background-color: #ffffff;
@@ -92,6 +70,6 @@
     border-radius: 8px;
     transition: 0.5s;
 }
-.section_8 .btn:hover{
+.back_btn:hover{
     background-color: #e6e6e6;
 }
