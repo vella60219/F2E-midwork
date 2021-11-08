@@ -25,6 +25,7 @@ article{
 .breadcrumb, .print_btn{                /* 麵包屑 友善列印 */
     display: flex;
     flex-wrap: nowrap;
+    align-items: center;
     /* border: solid 1px black; */
 }
 .breadcrumb a{
