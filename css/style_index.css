@@ -45,13 +45,9 @@
     align-items: center;
 }
 
-.main_box_btn a{
-    width: inherit;
-    margin: 5px;
-}
-
 .main_box_btn img{
     width: inherit;
+    margin: 5px;
 }
 
 .main_box_line{
@@ -59,7 +55,7 @@
     height: 1px;
     border: #000000 3px solid;
     border-radius: 10px;
-    margin: 5px;
+    margin: 10px;
 }
 
 /* ↑ main 區/////////////////////////////////////*/
@@ -96,7 +92,7 @@
     margin-bottom: 10px;
     display: flex;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 3px;
 }
 
 .newsA{
