@@ -6,43 +6,7 @@ article{
     /* border: solid 1px rgb(255, 0, 0); */
 }
 
-/* ↓ 麵包屑跟友善列印 區/////////////////////////////////////*/
-.breadcrumb_and_print{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 984px;
-    padding: 11px;
-    height: 46px;
-    left: 148px;
-    top: 168px;
-    margin-top: 16px;
-    background: #F1F1F1;
-    border-radius: 4px;
-    /* border: solid 1px rgb(194, 111, 111); */
-}
-.breadcrumb, .print_btn{                /* 麵包屑 友善列印 */
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    /* border: solid 1px black; */
-}
-.breadcrumb a{
-    padding: 3px;
-    left:5px;
-}
-.print_btn a{
-    padding: 3px;
-}
-.print_btn{
-    padding-left: 5px;
-}
-.icon_homepage, .icon_print{                /* 首頁 列印icon */
-    width: 16px;
-    height: 16px;
-}
-/* ↑  麵包屑跟友善列印 區/////////////////////////////////////*/
+
 
 /* ↓   標題(title) 區/////////////////////////////////////*/
 .title_box {
@@ -145,13 +109,13 @@ article{
     /* border: solid 2px black; */
 }
 .download_android:hover{
-    background-color: rgb(184, 184, 184);
+    background-color: #e6e6e6;
 }
 .download_ios:hover{
-    background-color: rgb(184, 184, 184);
+    background-color: #e6e6e6;
 }
 .application_qrcode:hover{
-    background-color: rgb(184, 184, 184);
+    background-color: #e6e6e6;
 }
 .section_6 img{
     width: 150px;
@@ -188,7 +152,7 @@ article{
     transition: 0.5s;
 }
 .section_8 .btn:hover{
-    background-color: rgb(184, 184, 184);
+    background-color: #e6e6e6;
 }
 
 
