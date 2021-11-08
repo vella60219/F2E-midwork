@@ -253,17 +253,17 @@ nav{
 
 .nav_btn:hover .nav_list_sub{
   display: block;
-  transition: .5s;
+  transition: .3s;
 }
 
 .nav_btn_sub:hover{
   background-color: #d1d1d1;
-  transition: .5s;
+  transition: .3s;
 }
 
 .nav_list_sub > .nav_btn_sub:hover {
   background-color: #d1d1d1;
-  transition: .5s;
+  transition: .3s;
 }
 
 /* ↑ nav 區/////////////////////////////////////*/
