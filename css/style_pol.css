@@ -95,7 +95,11 @@ article{
     padding: 10px 20px;
     border: solid 2px black;
     border-radius: 25px;
-    background-color: rgb(255, 196, 0);
+    background-color: #FFD600;
+}
+.btn:hover{
+    font-weight: 800;
+    background-color: #FFA800;
 }
 
 
