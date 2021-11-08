@@ -268,7 +268,8 @@ nav{
 /* ↓ banner 區/////////////////////////////////////*/
 
 .banner{
-  width: 1280px;
+  width: 100%;
+  margin-bottom: 30px;
 }
 
 .banner img{
