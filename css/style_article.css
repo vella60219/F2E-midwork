@@ -56,13 +56,16 @@
 /* ↑  麵包屑跟友善列印 區/////////////////////////////////////*/
 
 
-
+.back_btn_box{
+    display: flex;
+    justify-content: center;
+}
 
 
 
 
 .back_btn{
-    margin: 40px;
+    margin: 40px 20px;
     padding: 15px 40px;
     letter-spacing: 1px;
     background-color: #ffffff;

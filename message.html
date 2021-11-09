@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./css/style_mes.css">
 </head>
 <body>
-    <div class="container">
+    <div class="container" id="top">
         <header>
             <div class="header_box">
                 <div class="headerL">
@@ -202,8 +202,12 @@
                             </div>
                     </div>
                 </div>
-                <a href="javascript:history.go(-1);" class="back_btn textC">回上一頁</a>
+                <div class="back_btn_box">
+                    <!-- <a href="./index.html" class="back_btn textC">回首頁</a> -->
+                    <a href="javascript:history.go(-1);" class="back_btn textC">回上一頁</a>
+                </div>
             </div>
+            <a href="#top" class="toTop-arrow" id="BackTop" type="button" style="display: inline-block; opacity: 0.6;"></a>
         </article>
         <footer class="flexTextCenter">
             <div class="footer_box">

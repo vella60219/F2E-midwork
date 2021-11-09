@@ -327,3 +327,49 @@ footer{
   justify-content: space-around;
 }
 /* ↑ footer 區/////////////////////////////////////*/
+
+
+/* .backtop{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  right: 20px;
+  bottom: 20px;
+  background-color: #1CADAD;
+}  */
+
+.toTop-arrow {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  border-radius: 33%;
+  /* opacity: 0.8; */
+  background: #ABE0E3;
+  cursor: pointer;
+  position:fixed;
+  right: 10px;
+  bottom: 10px;
+  display: none;
+}
+.toTop-arrow::before, .toTop-arrow::after {
+  margin: 4px;
+  width: 18px;
+  height: 5px;
+  border-radius: 3px;
+  background: #ffffff;
+  position: absolute;
+  top: 15px;
+  content: "";
+}
+.toTop-arrow::before {
+  transform: rotate(-45deg) translate(0, -50%);
+  left: 4px;
+}
+.toTop-arrow::after {
+  transform: rotate(45deg) translate(0, -50%);
+  right: 4px;
+}
+.toTop-arrow:focus {outline: none;}
